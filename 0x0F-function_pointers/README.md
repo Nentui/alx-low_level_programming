@@ -1,12 +1,11 @@
 C - Function pointers
-
 TASKS
 
 0. What's my name
 Write a function that prints a name.
 Prototype: void print_name(char *name, void (*f)(char *));
 
-1. If you spend too much time thinking about a thing, you'll never get it done
+1. If you spend too much time thinking about a thing, you'll never get it done.
 Write a function that executes a function given as a parameter on each element of an array.
 Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
 where size is the size of the array and action is a pointer to the function you need to use.
@@ -83,4 +82,4 @@ You are allowed to use printf and atoi
 You have to use atoi to convert the argument to an int
 If the number of argument is not the correct one, print Error, followed by a new line, and exit with the status 1
 If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
-You do not have to compile with any flags
+You do not have to compile with any flag
